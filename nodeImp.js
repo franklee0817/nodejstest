@@ -13,6 +13,6 @@ Demo.HelloImp.prototype.initialize = function () {
     //TODO::
 };
 
-Demo.HelloImp.prototype.ping = function (current) {
+Demo.HelloImp.prototype.ping = function (current, req) {
     current.sendResponse("pong");
 };

@@ -2,6 +2,6 @@ module Demo
 {
   interface Hello
   {
-      string ping();
+      string ping(string req);
   };
 }; 
